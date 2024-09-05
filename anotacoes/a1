@@ -1,0 +1,16 @@
+- Html => conteúdp
+- CSS => estilização
+- JavaScript => interação
+- Node Js => é uma ferramenta que permite a execução de código JavaScript no servidor (uma forma de fazer com que o JavaScript rode no backend), sendo útil para a construção de aplicações web e APIs
+- Data Type (typeoff)
+  - Number
+    - Infinity
+    - NaN (Not a Number)
+  - Boolean
+  - String
+  - Null
+  - Undefined
+  - Object
+    - Array
+    - Null
+  -Function

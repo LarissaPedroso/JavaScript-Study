@@ -1,0 +1,27 @@
+<!DOCTYPE html> <!-- documento html-->
+<html lang="pt-br"> <!--idioma-->
+<head>
+    <meta charset="UTF-8"> <!--para aceitar caracteres-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--controla a forma que a página é vista pelos dispositivos móveis / o initial scale define o nível inicial do zoom, nesse caso não tem nenhum-->
+    <title>ex001</title>
+    <style> 
+        body{
+            background-color: rgb(135, 86, 180);
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1{
+            color:blue;
+        }
+    </style> <!--o body e h1 são os seletores: define quais elementos serão estilizados e o que esta dentro do {} é a declaração-->
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p1>paragrafo 1</p1>
+    <script>
+        window.alert("alerta, você é incrível!!")
+        window.confirm("você está gostando de javascript?")
+        window.prompt("Qual é o seu nome?")
+    </script> <!--O script geralmente é colocado dentro do body para garantir que o conteúdo HTML carregue primeiro, isso evita que o conteúdo HTML seja bloqueado pelos scripts-->
+</body>
+</html>
