@@ -18,9 +18,21 @@
 <body>
     <h1>Olá, mundo!</h1>
     <p1>paragrafo 1</p1>
-    <script>     
-        var name = window.prompt("Qual é o seu nome?")
-        window.alert("É um grande prazer de conhecer, " + nome)
+    <script>
+        var number1 = Number.parseInt(window.prompt("Digite um número inteiro: "))
+        var number2 = Number.parseInt(window.prompt("Digite um outro número inteiro: "))
+        const sum1 = number1 + number2
+        window.alert("A soma dos valores inteiros é " + sum1)
+
+        var number3 = Number.parseFloat(window.prompt("Digite um número decimal: "))
+        var number4 = Number.parseFloat(window.prompt("Digite um outro número decimal: "))
+        const sum2 = number3 + number4
+        window.alert(`A soma dos valores decimal é ${sum2}`)
+
+        var number5 = Number.parseFloat(window.prompt("Digite um número: "))
+        var number6 = Number.parseFloat(window.prompt("Digite um outro número: "))
+        const sum3 = number5 + number6
+        window.alert(`A soma dos valores ${number5} e ${number6} é ${sum3}`)
     </script> <!--O script geralmente é colocado dentro do body para garantir que o conteúdo HTML carregue primeiro, isso evita que o conteúdo HTML seja bloqueado pelos scripts-->
 </body>
 </html>
