@@ -1,0 +1,38 @@
+<!DOCTYPE html> <!-- documento html-->
+<html lang="pt-br"> <!--idioma-->
+<head>
+    <meta charset="UTF-8"> <!--para aceitar caracteres-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--controla a forma que a página é vista pelos dispositivos móveis / o initial scale define o nível inicial do zoom, nesse caso não tem nenhum-->
+    <title>ex001</title>
+    <style> 
+        body{
+            background-color: rgb(135, 86, 180);
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1{
+            color:blue;
+        }
+    </style> <!--o body e h1 são os seletores: define quais elementos serão estilizados e o que esta dentro do {} é a declaração-->
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p1>paragrafo 1</p1>
+    <script>
+        var number1 = Number.parseInt(window.prompt("Digite um número inteiro: "))
+        var number2 = Number.parseInt(window.prompt("Digite um outro número inteiro: "))
+        const sum1 = number1 + number2
+        window.alert("A soma dos valores inteiros é " + sum1)
+
+        var number3 = Number.parseFloat(window.prompt("Digite um número decimal: "))
+        var number4 = Number.parseFloat(window.prompt("Digite um outro número decimal: "))
+        const sum2 = number3 + number4
+        window.alert(`A soma dos valores decimal é ${sum2}`)
+
+        var number5 = Number.parseFloat(window.prompt("Digite um número: "))
+        var number6 = Number.parseFloat(window.prompt("Digite um outro número: "))
+        const sum3 = number5 + number6
+        window.alert(`A soma dos valores ${number5} e ${number6} é ${sum3}`)
+    </script> <!--O script geralmente é colocado dentro do body para garantir que o conteúdo HTML carregue primeiro, isso evita que o conteúdo HTML seja bloqueado pelos scripts-->
+</body>
+</html>

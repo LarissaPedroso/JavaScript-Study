@@ -1,0 +1,24 @@
+*Tratamento de Dados*
+
+--> Conversão
+    -- Conversão Números:
+        -- Number.parseInt(n)
+        -- Number.parseFloat(n)
+        -- Number(n) //JavaScript decide o tipo que será de acordo com o valor que será passado.
+    -- Conversão String:
+        --String(n)
+        --n.ToString()
+
+--> Formatação de Números:
+    -- n.toFixed(2) //dentro do parênteses coloque a quantidade de casas após o '.'
+    -- n.toFixed().replace('.', ',')
+    -- n.toLocaleString('pt-BR', {style: 'currency', 'currency': 'BRL'}) //conversão de dinheiro
+
+--> Formatando String
+    -- Concatenação: 
+        - 'Eu estou aprendendo' + s
+    -- Template String:
+        - `Eu estou aprendendo ${s}` //${s} => se chama place holder
+    -- s.length
+    -- s.toUpperCase()
+    -- s.toLowerCase()
