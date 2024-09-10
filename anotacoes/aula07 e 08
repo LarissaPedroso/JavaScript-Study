@@ -1,0 +1,49 @@
+*Operadores*
+---> OperadoresAritméticos
+    -- +
+    -- -
+    -- *
+    -- /
+    -- %
+    -- ** (porcentagem)
+--> Ordem de precedência
+    -- ()
+    -- **
+    -- /, %, *
+    -- -, +
+---> Operadores de atribuição
+    -- Atribuição simples
+        - var a = 5
+    -- Auto atribuição
+        -- var n = 2+1
+        -- n = n + 5 / n += 5
+    -> Incremento
+        -- var x = 5
+        -- x = x + 1 / x += 1 / x++
+        --> pre incremento ++x
+        --> pos incremento x++
+
+---> Operadores relacionais
+    -- >
+    -- <
+    -- >=
+    -- <=
+    -- ==
+    -- !=
+    --> Identidade
+        -- 5 == '5' (true) => confere se é o mesmo valor
+        -- 5 === '5' (false) = > confere o valor e o tipo, confere se são identicos
+    --> Desigual restrito
+        -- 5 !== '5' (true) => o desigual restrito vê valor e o tipo
+
+-->Operadores lógicos
+    -- !
+    -- &&
+    -- ||
+--> ordem 
+    -- operador aritmético
+    -- operador relacional
+    -- operadore lógico (!, &&, ||)
+
+--> Ternário
+    -- média >= 5 ? "Aprovado" : "Reprovado"
